@@ -1,0 +1,31 @@
+/*Seccion preguntas frecuentes*/
+
+.container-fluid{
+    background-color: #e7c9c9;
+}
+
+.pregunta{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.respuesta {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    color: #363434;
+    font-size: 20px;
+    line-height: 1.8;
+    /* margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem; */
+}
+
+.container-fluid iframe{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}

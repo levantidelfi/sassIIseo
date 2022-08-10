@@ -1,0 +1,78 @@
+/*Seccion nosotros*/
+
+.nosotros {
+    background-color: #e7c9c9;
+}
+
+.nosotros p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    color: #363434;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nosotros h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nosotros img{
+    width: 800px;
+    margin-bottom: 2rem;
+}
+
+.nosotros-img{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin: auto;
+    // width: 50vw;
+    // margin-left: 25vw;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    // height: 20rem;
+   /* text-align: center; */
+}
+
+.form-check{
+    display: flex;
+    justify-items: center;
+    max-width: 100%;
+}
+
+
+
+.form-check legend {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #191919;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.mb-3 input{
+  width: 25rem;
+}
+
+.form-check p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin-top: 30px;
+}
+
+.container fieldset{
+    border-color: grey;
+    border-style: solid;
+}

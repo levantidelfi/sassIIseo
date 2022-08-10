@@ -1,0 +1,128 @@
+@import "variables";
+
+/* Seccion contacto*/
+
+.contacto{
+    background-color: #e7c9c9;
+}
+
+.contacto h3{
+    text-align: center;
+    color: #3a3a3a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 4rem;
+}
+
+.contacto__parrafo{
+    text-align: center;
+    color: #666666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-weight: bold;
+}
+
+
+.form-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+.form-1 input{
+    margin-top: 10px;
+    color: #666666;
+}
+
+.form-1 textarea{
+    margin-top: 10px;
+    color: #666666;
+}
+
+.form-1 legend{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contacto2{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-1{
+    legend{
+        color: $color-fuente;
+    }
+    div{
+        .form__boton{
+            gap: 1rem;
+            color: black;
+        }
+        label{
+            color: $color-fuente;
+        }
+        p{
+            color: $color-fuente;
+        }
+    }
+    
+ }
+
+ .contacto2{
+    border: solid;
+    color: black;
+    background-color: whitesmoke;
+    p{
+     color: $color-fuente;
+    }
+ }
+
+
+
+
+ @media screen and (max-width: 480px){
+    .contacto2{
+        margin-top: 3rem;
+    }
+ }
+
+ /* EXTEND */
+ .form__boton{
+    // color: #3a3a3a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    border: #666666;
+    border-radius: 5px;
+    padding: 6px 6px;
+    padding-right: 20px;
+    background-color: white;
+    // color: black;
+}
+
+.form__boton--enviar{
+    @extend .form__boton;
+    padding-left: 5px;
+    padding-right: 3px;
+    border-radius: 10px;
+    border-color: white;
+    background-color:  rgb(146, 139, 140);
+    margin-right: 1rem;
+}
+
+.form__boton--limpiar{
+    @extend .form__boton;
+    padding-left: 5px;
+    padding-right: 3px;
+    border-radius: 10px;
+    border-color: white;
+    background-color:  rgb(146, 139, 140);
+    margin-right: 1rem;
+}

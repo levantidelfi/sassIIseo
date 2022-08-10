@@ -1,0 +1,50 @@
+/*Seccion productos*/
+
+.productos2{
+    background-color: #e7c9c9;
+}
+
+
+.card__productos2{
+    position: relative;
+    width: 17rem;
+    height: 22rem;
+    background: rgb(197, 183, 183);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+     padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.card__caja2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+// .card__imagen2{
+//     width: 15rem;
+//     height: 14rem;
+//     max-width: 100%;
+//     margin: auto;
+// }
+
+.card__caja2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.productos2 p{
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+}
